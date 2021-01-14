@@ -1,0 +1,431 @@
+.App {
+    text-align: center;
+}
+.top-nav {
+    width:100%;
+    height:56px;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #3C5163;
+}
+
+ul, li {
+    float: left;
+    margin-left:60px;
+    list-style: none;
+    color:white;
+    margin-bottom:0;
+}
+
+li {
+    background-color: #172c3f;
+    padding-bottom:0;
+    padding:5px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width:150px;
+    margin-bottom:0;
+}
+
+#firstX {
+    position: absolute;
+    color:white;
+    transform: rotate(45deg);
+    left:150px;
+    top:15%;
+    z-index:5;
+}
+
+#secondX {
+    position: absolute;
+    color:white;
+    transform: rotate(45deg);
+    left:370px;
+    top:15%;
+    z-index:5;
+}
+
+#thirdX {
+    position: absolute;
+    color:white;
+    transform: rotate(45deg);
+    left:590px;
+    top:15%;
+    z-index:5;
+}
+
+ul {
+    position:absolute;
+    top:10.5px;
+}
+
+.side-nav {
+    width:56px;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #3C5163;
+}
+
+.side-nav-item {
+    width:40px;
+    margin-top:50px;
+}
+
+
+.link-to-work {
+    background-color: #2F4B63;
+    border: none;
+    color:white;
+    border-radius: 2rem;
+    width:400px;
+    height:50px;
+    font-size: x-large;
+    letter-spacing: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    left:49%;
+    top:90%;
+    width:25px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.projects-page {
+    position: absolute;
+    top:100%;
+    width:100%;
+    height:120%;
+}
+
+h3 {
+    margin-top: 100px;
+    font-size: xx-large;
+}
+
+.right-bar {
+    width:56px;
+    height:100%;
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: #3C5163;
+}
+
+.bottom-bar {
+    width:100%;
+    height:56px;
+    position: absolute;
+    bottom:0;
+    right:0;
+    background-color: #3C5163;
+}
+
+.projects-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+
+.project {
+    width:300px;
+    height:500px;
+    background-color: #59829C;
+    margin-bottom: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-top {
+    position: absolute;
+    width:100%;
+    height:47%;
+    background-color: black;
+    z-index:1;
+    opacity:0.7;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    color:white;
+}
+
+span {
+    color: white;
+    border-radius: 0.5rem;
+    width:70px;
+    height: 30px;
+    text-align: center;
+}
+
+
+.email-copy {
+    color:black;
+}
+.tag-container {
+    width:100%;
+    height:10%;
+    position: absolute;
+    bottom: -15%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-page {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    display:flex;
+    align-items: top;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    bottom:-210%;
+    left:0;
+}
+
+#about {
+    color:white;
+    flex-grow:0;
+    flex-basis: 100%;
+    font-size: 35px;    
+    margin-bottom: 150px;
+}
+
+#insta {
+    position: absolute;
+    left:8%;
+    bottom:-260.5%;
+    z-index:5;
+    color:white;
+    font-size:15px;
+}
+
+#phone-num {
+    position: absolute;
+    left:8%;
+    bottom:-270%;
+    z-index:5;
+    color:white;
+    font-size:15px;
+}
+
+
+#address {
+    position:absolute;
+    left:8%;
+    bottom:-279.5%;
+    z-index:5;
+    color:white;
+    font-size:15px;
+}
+
+#contact {
+    position:absolute;
+    left:5%;
+    bottom:-280%;
+    z-index:5;
+}
+
+div {
+    text-align: center;
+}
+
+p {
+    width:300px;
+}
+
+h6 {
+    margin: 0;
+    font-size: large;
+    font-weight: bolder;
+}
+
+footer {
+    width:100%;
+    height:60%;
+    position: absolute;
+    left:0;
+    bottom:-300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F4B63;
+}
+
+form {
+    background-color:#21303D;
+    border: 1px solid #58A07F;
+    width:500px;
+    height:350px;
+}
+
+input, textarea {
+    display: block;
+    margin: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:#62798D;
+    border: 1px solid #58A07F;
+    color:white;
+    width:95%;
+}
+
+textarea {
+    height:140px;
+}
+
+h5 {
+    color:#58A07F;
+    font-size:30px;
+    margin-top: 5px;
+    position: absolute;
+    left:44%;
+}
+
+.triangle {
+    position: absolute;
+    left:0;
+    top:220%;
+    width:100%;
+}
+
+.form-btn {
+    background-color: #0aa550;
+    border: none;
+    color:white;
+    width:75px;
+    height:25px;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+}
+
+::placeholder { 
+    color: #21303D;
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    color: #21303D;
+  }
+  
+  ::-ms-input-placeholder {
+    color:#21303D;
+}
+
+#site-img {
+    width:170%;
+    position:absolute;
+    top:0%;
+    left:-30%;
+  }
+
+
+#code-img {
+    width:200px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:170%;
+}
+
+  @media only screen and (max-width:1250px) {
+    .project {
+        width:250px;
+    }
+    #site-img {
+        width:230%;
+
+    }
+    .right-bar {
+        z-index: 20;
+    }
+  }
+
+  @media only screen and (max-width:960px) {
+    .about-img {
+        width:100px;
+    }
+
+    .about-header {
+        font-size:12px;
+    }
+
+    .desc {
+        font-size:12px;
+    }
+
+    #about {
+        font-size: 20px;
+    }
+
+    #insta {display:none;}
+    #address {display:none;}
+    #phone-num {display:none;}
+    #contact {display:none;}
+
+    h5 {
+        left:40%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    li {
+        margin-left:30px; 
+    }
+
+    #firstX {left:120px;}
+    #secondX {left:310px;}
+    #thirdX {left:500px;}
+
+    .projects-container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0;
+        display: flex;
+        align-items:flex-end;
+        justify-content: start;
+    }
+    
+    .project {
+        width:200px;
+        height:450px;
+        margin-left: 30px;
+    }
+
+    .tag {
+        font-size: 12px;
+        margin:5px;
+    }
+
+    h5 {
+        left:37%;
+    }
+}
